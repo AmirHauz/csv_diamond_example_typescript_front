@@ -1,9 +1,11 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import counterReducer from '../features/counter/counterSlice';
+import diamondReducer from '../features/Diamond/diamondSlice';
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    Diamond: diamondReducer
   },
 });
 
