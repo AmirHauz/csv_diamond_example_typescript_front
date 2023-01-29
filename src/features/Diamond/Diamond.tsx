@@ -56,7 +56,7 @@ const Diamond = () => {
           x:{dia.x},
           y:{dia.y},
           z:{dia.z}<br/>
-          {dia.ID}
+          {/* {dia.ID} */}
           <button onClick={() => dispatch(updDiamondAsync({ID:dia.ID,carat, cut, color, clarity, depth, table, price, x, y, z}))}>update</button>
           <button onClick={() => dispatch(delDiamondAsync(dia.ID))}>delete</button>
           <hr />
