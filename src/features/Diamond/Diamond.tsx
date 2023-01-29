@@ -26,7 +26,7 @@ const Diamond = () => {
 
   useEffect(() => {
     dispatch(getDiamondsAsync())
-  }, [diamondUpdate])
+  }, [diamondUpdate,diamonds.length])
 
 
   return (
